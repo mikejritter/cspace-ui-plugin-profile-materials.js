@@ -4,6 +4,7 @@ import intake from './intake';
 import loanin from './loanin';
 import location from './location';
 import organization from './organization';
+import person from './person';
 import valuation from './valuation';
 
 export default [
@@ -13,5 +14,6 @@ export default [
   loanin,
   location,
   organization,
+  person,
   valuation,
 ];
