@@ -1,4 +1,5 @@
 import citation from './citation';
+import concept from './concept';
 import conditioncheck from './conditioncheck';
 import exhibition from './exhibition';
 import intake from './intake';
@@ -11,6 +12,7 @@ import valuation from './valuation';
 
 export default [
   citation,
+  concept,
   conditioncheck,
   exhibition,
   intake,
