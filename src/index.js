@@ -3,6 +3,7 @@
  * webpack.config.js. */
 
 import { defineMessages } from 'react-intl';
+import cspaceUIPluginRecordMaterial from 'cspace-ui-plugin-record-material';
 import messages from './messages';
 import plugins from './plugins';
 import styles from '../styles/cspace-ui-plugin-profile/materials.css';
@@ -23,5 +24,8 @@ module.exports = () => ({
       version: cspaceUIPluginProfileMaterials.packageVersion,
     },
   },
-  plugins: plugins.map(plugin => plugin()),
+  plugins: [
+    cspaceUIPluginRecordMaterial(),
+    ...plugins.map(plugin => plugin()),
+  ],
 });

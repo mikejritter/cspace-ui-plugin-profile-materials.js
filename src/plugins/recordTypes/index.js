@@ -5,6 +5,7 @@ import exhibition from './exhibition';
 import intake from './intake';
 import loanin from './loanin';
 import location from './location';
+import material from './material';
 import organization from './organization';
 import person from './person';
 import place from './place';
@@ -19,6 +20,7 @@ export default [
   intake,
   loanin,
   location,
+  material,
   organization,
   person,
   place,
