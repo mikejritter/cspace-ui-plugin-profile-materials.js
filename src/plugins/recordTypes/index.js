@@ -9,6 +9,7 @@ import organization from './organization';
 import person from './person';
 import place from './place';
 import valuation from './valuation';
+import work from './work';
 
 export default [
   citation,
@@ -22,4 +23,5 @@ export default [
   person,
   place,
   valuation,
+  work,
 ];
