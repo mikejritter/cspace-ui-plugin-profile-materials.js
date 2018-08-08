@@ -24,7 +24,7 @@ export default {
       collectionName: {
         id: 'vocab.concept.sharedmaterial.collectionName',
         description: 'The name of a collection of records from the vocabulary.',
-        defaultMessage: 'Shared Materials',
+        defaultMessage: 'Shared Material Concepts',
       },
     }),
     serviceConfig: {
