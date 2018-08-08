@@ -6,6 +6,7 @@ import loanin from './loanin';
 import location from './location';
 import organization from './organization';
 import person from './person';
+import place from './place';
 import valuation from './valuation';
 
 export default [
@@ -17,5 +18,6 @@ export default [
   location,
   organization,
   person,
+  place,
   valuation,
 ];
