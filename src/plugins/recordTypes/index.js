@@ -1,3 +1,4 @@
+import citation from './citation';
 import conditioncheck from './conditioncheck';
 import exhibition from './exhibition';
 import intake from './intake';
@@ -8,6 +9,7 @@ import person from './person';
 import valuation from './valuation';
 
 export default [
+  citation,
   conditioncheck,
   exhibition,
   intake,
