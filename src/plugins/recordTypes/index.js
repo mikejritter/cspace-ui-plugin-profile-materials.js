@@ -1,3 +1,4 @@
+import acquisition from './acquisition';
 import citation from './citation';
 import collectionobject from './collectionobject';
 import concept from './concept';
@@ -15,6 +16,7 @@ import valuation from './valuation';
 import work from './work';
 
 export default [
+  acquisition,
   citation,
   collectionobject,
   concept,
