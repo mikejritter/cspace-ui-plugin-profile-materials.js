@@ -12,7 +12,9 @@ module.exports = () => ({
   messages,
   className: styles.common,
   prettyUrls: true,
+  showTermListStateIcon: true,
   tenantId: '2000',
+  termDeprecationEnabled: true,
   pluginInfo: {
     cspaceUIPluginProfileMaterials: {
       messages: defineMessages({
