@@ -1,4 +1,5 @@
 import citation from './citation';
+import collectionobject from './collectionobject';
 import concept from './concept';
 import conditioncheck from './conditioncheck';
 import exhibition from './exhibition';
@@ -15,6 +16,7 @@ import work from './work';
 
 export default [
   citation,
+  collectionobject,
   concept,
   conditioncheck,
   exhibition,
