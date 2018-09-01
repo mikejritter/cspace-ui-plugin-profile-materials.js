@@ -11,6 +11,7 @@ import styles from '../styles/cspace-ui-plugin-profile/materials.css';
 module.exports = () => ({
   messages,
   className: styles.common,
+  mediaSnapshotSort: 'identificationNumber',
   prettyUrls: true,
   showTermListStateIcon: true,
   tenantId: '2000',
