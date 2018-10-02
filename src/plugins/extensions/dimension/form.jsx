@@ -25,12 +25,8 @@ export default (configContext) => {
           <Field name="dimensionSubGroupList">
             <Field name="dimensionSubGroup">
               <Field name="dimension" />
-              <Field name="measuredBy" />
-              <Field name="measurementMethod" />
               <Field name="value" />
               <Field name="measurementUnit" />
-              <Field name="valueQualifier" />
-              <Field name="valueDate" />
             </Field>
           </Field>
         </Panel>
