@@ -38,9 +38,7 @@ const template = (configContext) => {
             <Field name="publishToList">
               <Field name="publishTo" />
             </Field>
-          </Col>
 
-          <Col>
             <Field name="inventoryStatusList">
               <Field name="inventoryStatus" />
             </Field>
@@ -48,10 +46,33 @@ const template = (configContext) => {
             <Field name="briefDescriptions">
               <Field name="briefDescription" />
             </Field>
+          </Col>
 
+          <Col>
             <Field name="materialGroupList">
               <Field name="materialGroup" tabular={false}>
                 <Field name="material" label="" embedded />
+              </Field>
+            </Field>
+
+            <Field name="materialHandlingGroupList" subpath="ns2:collectionobjects_materials">
+              <Field name="materialHandlingGroup">
+                <Field name="handling" />
+                <Field name="handlingNote" />
+              </Field>
+            </Field>
+
+            <Field name="materialContainerGroupList" subpath="ns2:collectionobjects_materials">
+              <Field name="materialContainerGroup">
+                <Field name="container" />
+                <Field name="containerNote" />
+              </Field>
+            </Field>
+
+            <Field name="materialConditionGroupList" subpath="ns2:collectionobjects_materials">
+              <Field name="materialConditionGroup">
+                <Field name="condition" />
+                <Field name="conditionNote" />
               </Field>
             </Field>
 
@@ -66,11 +87,22 @@ const template = (configContext) => {
             <Field name="objectStatusList">
               <Field name="objectStatus" />
             </Field>
+
+            <Field name="materialFinishGroupList" subpath="ns2:collectionobjects_materials">
+              <Field name="materialFinishGroup">
+                <Field name="finish" />
+                <Field name="finishNote" />
+              </Field>
+            </Field>
           </Col>
 
           <Col>
             <Field name="colors">
               <Field name="color" />
+            </Field>
+
+            <Field name="materialGenericColors" subpath="ns2:collectionobjects_materials">
+              <Field name="materialGenericColor" />
             </Field>
           </Col>
         </Row>
