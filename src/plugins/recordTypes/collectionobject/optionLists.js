@@ -3,10 +3,12 @@ import { defineMessages } from 'react-intl';
 export default {
   numberTypes: {
     values: [
+      'barcode',
       'callnumber',
       'lender',
       'obsolete',
       'previous',
+      'QR code',
       'serial',
       'unknown',
     ],
