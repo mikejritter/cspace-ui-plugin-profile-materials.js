@@ -82,27 +82,6 @@ const template = (configContext) => {
         {extensions.dimension.form}
       </Panel>
 
-      <Panel name="prod" collapsible collapsed>
-        <Row>
-          <Col>
-            <Field name="objectProductionDateGroupList">
-              <Field name="objectProductionDateGroup" />
-            </Field>
-          </Col>
-
-          <Field name="objectProductionNote" />
-        </Row>
-      </Panel>
-
-      <Panel name="reference" collapsible collapsed>
-        <Field name="referenceGroupList">
-          <Field name="referenceGroup">
-            <Field name="reference" />
-            <Field name="referenceNote" />
-          </Field>
-        </Field>
-      </Panel>
-
       <Panel name="hierarchy" collapsible collapsed>
         <Field name="relation-list-item" subpath="rel:relations-common-list" />
       </Panel>
