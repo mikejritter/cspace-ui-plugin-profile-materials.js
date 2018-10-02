@@ -35,14 +35,24 @@ export default {
   },
   objectTypes: {
     values: [
+      'fragment',
       'mock_up',
+      'product',
       'prototype',
       'sample',
     ],
     messages: defineMessages({
+      fragment: {
+        id: 'option.objectTypes.fragment',
+        defaultMessage: 'fragment',
+      },
       mock_up: {
         id: 'option.objectTypes.mock_up',
         defaultMessage: 'mock-up',
+      },
+      product: {
+        id: 'option.objectTypes.product',
+        defaultMessage: 'product',
       },
       prototype: {
         id: 'option.objectTypes.prototype',
