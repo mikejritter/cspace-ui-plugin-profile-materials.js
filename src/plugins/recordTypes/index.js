@@ -6,6 +6,7 @@ import conditioncheck from './conditioncheck';
 import exhibition from './exhibition';
 import intake from './intake';
 import loanin from './loanin';
+import loanout from './loanout';
 import location from './location';
 import material from './material';
 import media from './media';
@@ -25,6 +26,7 @@ export default [
   exhibition,
   intake,
   loanin,
+  loanout,
   location,
   material,
   media,

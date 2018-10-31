@@ -58,4 +58,10 @@ export default {
   'field.collectionobjects_common.briefDescription.name': 'Production description',
   'field.collectionobjects_common.objectStatus.name': 'Object type',
   'field.collectionobjects_common.reference.name': 'Supplementary literature description',
+
+  // loanout
+
+  'field.loansout_common.lendersAuthorizer.name': 'Lender authorizer',
+  'field.loansout_common.borrower.name': 'Borrower',
+  'field.loansout_common.borrower.fullName': 'Borrower',
 };
