@@ -10,6 +10,7 @@ import loanout from './loanout';
 import location from './location';
 import material from './material';
 import media from './media';
+import movement from './movement';
 import organization from './organization';
 import person from './person';
 import place from './place';
@@ -30,6 +31,7 @@ export default [
   location,
   material,
   media,
+  movement,
   organization,
   person,
   place,
