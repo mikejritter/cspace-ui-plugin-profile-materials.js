@@ -15,6 +15,13 @@ export default (configContext) => {
   return {
     document: {
       'ns2:collectionobjects_common': {
+        publishToList: {
+          publishTo: {
+            [config]: {
+              defaultValue: 'urn:cspace:materials.collectionspace.org:vocabularies:name(publishto):item:name(materialorder)\'Material Order\'',
+            },
+          },
+        },
         objectStatusList: {
           objectStatus: {
             [config]: {
