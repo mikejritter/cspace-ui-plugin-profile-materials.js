@@ -5,7 +5,7 @@ export default {
     disableAltTerms: true,
   },
   tgn: {
-    disableAltTerms: true,
+    disabled: true,
   },
   shared: {
     disableAltTerms: true,

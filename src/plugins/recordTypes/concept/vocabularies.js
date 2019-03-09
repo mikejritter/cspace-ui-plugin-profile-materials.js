@@ -2,34 +2,19 @@ import { defineMessages } from 'react-intl';
 
 export default {
   associated: {
-    disableAltTerms: true,
+    disabled: true,
   },
   activity: {
-    disableAltTerms: true,
+    disabled: true,
   },
   ethculture: {
     disabled: true,
   },
   material: {
-    disableAltTerms: true,
+    disabled: true,
   },
   sharedmaterial: {
-    disableAltTerms: true,
-    messages: defineMessages({
-      name: {
-        id: 'vocab.concept.sharedmaterial.name',
-        description: 'The name of the vocabulary.',
-        defaultMessage: 'Shared Material',
-      },
-      collectionName: {
-        id: 'vocab.concept.sharedmaterial.collectionName',
-        description: 'The name of a collection of records from the vocabulary.',
-        defaultMessage: 'Shared Material Concepts',
-      },
-    }),
-    serviceConfig: {
-      servicePath: 'urn:cspace:name(material_ca_shared)',
-    },
+    disabled: true,
   },
   materialclassification: {
     disableAltTerms: true,
@@ -68,21 +53,6 @@ export default {
     },
   },
   materialformtype: {
-    disableAltTerms: true,
-    messages: defineMessages({
-      name: {
-        id: 'vocab.concept.materialformtype.name',
-        description: 'The name of the vocabulary.',
-        defaultMessage: 'Material Form Type',
-      },
-      collectionName: {
-        id: 'vocab.concept.materialformtype.collectionName',
-        description: 'The name of a collection of records from the vocabulary.',
-        defaultMessage: 'Material Form Types',
-      },
-    }),
-    serviceConfig: {
-      servicePath: 'urn:cspace:name(materialformtype)',
-    },
+    disabled: true,
   },
 };
