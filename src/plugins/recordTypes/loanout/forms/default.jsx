@@ -35,8 +35,8 @@ const template = (configContext) => {
 
         <Field name="loanStatusGroupList">
           <Field name="loanStatusGroup">
-            <Field name="loanApproverGroup" />
-            <Field name="loanApprover" />
+            <Field name="loanGroup" />
+            <Field name="loanIndividual" />
             <Field name="loanStatus" />
             <Field name="loanStatusDate" />
             <Field name="loanStatusNote" />
