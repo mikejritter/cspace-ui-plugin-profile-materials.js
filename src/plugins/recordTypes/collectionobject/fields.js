@@ -18,7 +18,7 @@ export default (configContext) => {
         publishToList: {
           publishTo: {
             [config]: {
-              defaultValue: 'urn:cspace:materials.collectionspace.org:vocabularies:name(publishto):item:name(materialorder)\'Material Order\'',
+              defaultValue: 'urn:cspace:materials.collectionspace.org:vocabularies:name(publishto):item:name(none)\'None\'',
             },
           },
         },
