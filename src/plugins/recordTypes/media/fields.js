@@ -39,7 +39,6 @@ export default (configContext) => {
           },
           publishTo: {
             [config]: {
-              defaultValue: 'urn:cspace:materials.collectionspace.org:vocabularies:name(publishto):item:name(none)\'None\'',
               messages: defineMessages({
                 name: {
                   id: 'field.media_materials.publishTo.name',
