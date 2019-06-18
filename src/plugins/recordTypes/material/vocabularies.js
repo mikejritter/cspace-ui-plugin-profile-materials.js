@@ -17,6 +17,11 @@ export default {
         description: 'The name of a collection of records from the vocabulary.',
         defaultMessage: 'Shared Materials',
       },
+      itemName: {
+        id: 'vocab.material.shared.itemName',
+        description: 'The name of a record from the vocabulary.',
+        defaultMessage: 'Shared Material',
+      },
     }),
     serviceConfig: {
       servicePath: 'urn:cspace:name(material_shared)',

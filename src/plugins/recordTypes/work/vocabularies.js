@@ -20,6 +20,11 @@ export default {
         description: 'The name of a collection of records from the vocabulary.',
         defaultMessage: 'Shared Works',
       },
+      itemName: {
+        id: 'vocab.work.shared.itemName',
+        description: 'The name of a record from the vocabulary.',
+        defaultMessage: 'Shared Work',
+      },
     }),
     serviceConfig: {
       servicePath: 'urn:cspace:name(work_shared)',

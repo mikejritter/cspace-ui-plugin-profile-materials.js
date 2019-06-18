@@ -29,6 +29,11 @@ export default {
         description: 'The name of a collection of records from the vocabulary.',
         defaultMessage: 'Material Classifications',
       },
+      itemName: {
+        id: 'vocab.concept.materialclassification.itemName',
+        description: 'The name of a record from the vocabulary.',
+        defaultMessage: 'Material Classification',
+      },
     }),
     serviceConfig: {
       servicePath: 'urn:cspace:name(materialclassification)',
@@ -46,6 +51,11 @@ export default {
         id: 'vocab.concept.sharedmaterialclassification.collectionName',
         description: 'The name of a collection of records from the vocabulary.',
         defaultMessage: 'Shared Material Classifications',
+      },
+      itemName: {
+        id: 'vocab.concept.sharedmaterialclassification.itemName',
+        description: 'The name of a record from the vocabulary.',
+        defaultMessage: 'Shared Material Classification',
       },
     }),
     serviceConfig: {
