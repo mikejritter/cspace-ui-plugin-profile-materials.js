@@ -8,10 +8,10 @@ export default {
     <p>
       This demo site is running the
       <a href="http://www.collectionspace.org/current_release/">current version</a> of the
-      <a href="https://wiki.collectionspace.org/x/lYOkCQ">materials authority profile</a> of
+      <a href="https://collectionspace.atlassian.net/wiki/x/CoBDK">materials authority profile</a> of
       CollectionSpace. If you’re interested in a version of CollectionSpace configured to meet the
       needs of a specific domain, please visit our
-      <a href="http://demo.collectionspace.org">demo landing page</a>
+      <a href="https://www.collectionspace.org/demo/">demo landing page</a>
       to view all available options. Examples include Anthropology, Botanical Garden, Fine Art,
       Herbarium, and Local History &amp; Material Culture.
     </p>
