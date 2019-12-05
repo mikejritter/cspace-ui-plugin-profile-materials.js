@@ -47,6 +47,12 @@ export default (configContext) => {
             },
           },
         },
+        physicalDescription: {
+          // Replaced by materialPhysicalDescriptions. Hide from search.
+          [config]: {
+            searchDisabled: true,
+          },
+        },
       },
       'ns2:collectionobjects_materials': {
         [config]: {
@@ -95,6 +101,10 @@ export default (configContext) => {
             handlingNote: {
               [config]: {
                 messages: defineMessages({
+                  fullName: {
+                    id: 'field.collectionobjects_materials.handlingNote.fullName',
+                    defaultMessage: 'Handling note',
+                  },
                   name: {
                     id: 'field.collectionobjects_materials.handlingNote.name',
                     defaultMessage: 'Note',
@@ -148,6 +158,10 @@ export default (configContext) => {
             containerNote: {
               [config]: {
                 messages: defineMessages({
+                  fullName: {
+                    id: 'field.collectionobjects_materials.containerNote.fullName',
+                    defaultMessage: 'Container note',
+                  },
                   name: {
                     id: 'field.collectionobjects_materials.containerNote.name',
                     defaultMessage: 'Note',
@@ -201,6 +215,10 @@ export default (configContext) => {
             conditionNote: {
               [config]: {
                 messages: defineMessages({
+                  fullName: {
+                    id: 'field.collectionobjects_materials.conditionNote.fullName',
+                    defaultMessage: 'Condition note',
+                  },
                   name: {
                     id: 'field.collectionobjects_materials.conditionNote.name',
                     defaultMessage: 'Note',
@@ -278,6 +296,10 @@ export default (configContext) => {
             finishNote: {
               [config]: {
                 messages: defineMessages({
+                  fullName: {
+                    id: 'field.collectionobjects_materials.finishNote.fullName',
+                    defaultMessage: 'Finish note',
+                  },
                   name: {
                     id: 'field.collectionobjects_materials.finishNote.name',
                     defaultMessage: 'Note',
