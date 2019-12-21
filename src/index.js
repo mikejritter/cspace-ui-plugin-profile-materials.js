@@ -29,6 +29,6 @@ export default () => ({
   },
   plugins: [
     cspaceUIPluginRecordMaterial(),
-    ...plugins.map(plugin => plugin()),
+    ...plugins.map((plugin) => plugin()),
   ],
 });
