@@ -1,6 +1,6 @@
 {
   "name": "cspace-ui-plugin-profile-materials",
-  "version": "1.0.6",
+  "version": "2.0.0",
   "description": "Materials Authority profile plugin for the CollectionSpace UI",
   "author": "Ray Lee <ray.lee@lyrasis.org>",
   "license": "ECL-2.0",
@@ -41,7 +41,7 @@
     "test-selenium": "wdio wdio.conf.js"
   },
   "dependencies": {
-    "cspace-ui-plugin-record-material": "^1.0.3",
+    "cspace-ui-plugin-record-material": "^2.0.0",
     "react-intl": "^2.3.0"
   },
   "devDependencies": {
@@ -59,7 +59,7 @@
     "chai-immutable": "^1.6.0",
     "coveralls": "^3.0.2",
     "cross-env": "^2.0.0",
-    "cspace-ui": "^3.2.0-rc.9",
+    "cspace-ui": "^4.0.0-rc.1",
     "css-loader": "^2.1.1",
     "eslint": "^6.7.2",
     "eslint-config-airbnb": "^18.0.1",
