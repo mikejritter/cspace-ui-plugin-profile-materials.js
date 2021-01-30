@@ -69,6 +69,7 @@ const template = (configContext) => {
         </Cols>
 
         <Field name="description" />
+        <Field name="altText" />
       </Panel>
     </Field>
   );
