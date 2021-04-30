@@ -79,6 +79,15 @@ const template = (configContext) => {
             <Field name="computedCurrentLocation" />
           </Col>
         </Row>
+
+        <Field name="annotationGroupList" subpath="ns2:collectionobjects_annotation">
+          <Field name="annotationGroup">
+            <Field name="annotationType" />
+            <Field name="annotationNote" />
+            <Field name="annotationDate" />
+            <Field name="annotationAuthor" />
+          </Field>
+        </Field>
       </Panel>
 
       <Panel name="desc" collapsible collapsed>
