@@ -32,7 +32,16 @@ const template = (configContext) => {
               </Field>
             </Field>
 
-            <Field name="collection" />
+            <Row>
+              <Field name="collection" />
+
+              <Col>
+                <Field name="namedCollections">
+                  <Field name="namedCollection" />
+                </Field>
+              </Col>
+            </Row>
+
             <Field name="recordStatus" />
 
             <Field name="publishToList">
