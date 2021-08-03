@@ -1,6 +1,6 @@
 {
   "name": "cspace-ui-plugin-profile-materials",
-  "version": "3.0.0-rc.1",
+  "version": "3.0.0-rc.2",
   "description": "Materials Authority profile plugin for the CollectionSpace UI",
   "author": "Ray Lee <ray.lee@lyrasis.org>",
   "license": "ECL-2.0",
@@ -40,7 +40,7 @@
     "test": "cross-env NODE_ENV=test karma start --singleRun=true"
   },
   "dependencies": {
-    "cspace-ui-plugin-record-material": "^2.0.0",
+    "cspace-ui-plugin-record-material": "^3.0.0",
     "react-intl": "^2.3.0"
   },
   "devDependencies": {
