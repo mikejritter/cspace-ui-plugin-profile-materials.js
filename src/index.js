@@ -24,6 +24,12 @@ export default () => ({
           defaultMessage: 'Materials Authority profile',
         },
       }),
+      packageName: cspaceUIPluginProfileMaterials.packageName,
+      packageVersion: cspaceUIPluginProfileMaterials.packageVersion,
+      buildNum: cspaceUIPluginProfileMaterials.buildNum,
+      repositoryUrl: cspaceUIPluginProfileMaterials.repositoryUrl,
+      // packageVersion is now preferred, but keep version for backward compatibility with older
+      // versions of cspace-ui.
       version: cspaceUIPluginProfileMaterials.packageVersion,
     },
   },
