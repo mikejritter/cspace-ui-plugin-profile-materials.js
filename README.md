@@ -1,6 +1,7 @@
 # cspace-ui-plugin-profile-materials
 
-[![build status](https://travis-ci.org/collectionspace/cspace-ui-plugin-profile-materials.js.svg?branch=master)](https://travis-ci.org/collectionspace/cspace-ui-plugin-profile-materials.js)
+[![npm package](https://img.shields.io/npm/v/cspace-ui-plugin-profile-materials.svg)](https://www.npmjs.com/package/cspace-ui-plugin-profile-materials)
+[![continuous integration](https://github.com/collectionspace/cspace-ui-plugin-profile-materials.js/actions/workflows/ci-js.yml/badge.svg?branch=master&event=push)](https://github.com/collectionspace/cspace-ui-plugin-profile-materials.js/actions/workflows/ci-js.yml)
 
 Materials Authority profile plugin for the CollectionSpace UI.
 
