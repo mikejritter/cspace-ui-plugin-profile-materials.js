@@ -7,6 +7,9 @@ export default {
   tgn: {
     disabled: true,
   },
+  archaeological: {
+    disabled: true,
+  },
   shared: {
     disableAltTerms: true,
     messages: defineMessages({
