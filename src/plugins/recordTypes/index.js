@@ -1,4 +1,5 @@
 import acquisition from './acquisition';
+import chronology from './chronology';
 import citation from './citation';
 import collectionobject from './collectionobject';
 import concept from './concept';
@@ -21,6 +22,7 @@ import work from './work';
 
 export default [
   acquisition,
+  chronology,
   citation,
   collectionobject,
   concept,
