@@ -101,6 +101,16 @@ const template = (configContext) => {
             </Panel>
           </Field>
         </Field>
+
+        <Field name="objectCountGroupList">
+          <Field name="objectCountGroup">
+            <Field name="objectCount" />
+            <Field name="objectCountType" />
+            <Field name="objectCountCountedBy" />
+            <Field name="objectCountDate" />
+            <Field name="objectCountNote" />
+          </Field>
+        </Field>
       </Panel>
 
       <Panel name="desc" collapsible collapsed>
