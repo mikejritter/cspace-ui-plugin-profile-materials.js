@@ -7,7 +7,7 @@ v4.0.0 adds support for CollectionSpace 8.0, and requires cspace-ui version 9.
 ### Breaking Changes
 
 - On the record editor form for Object records:
-  - The number of objects field (`numberOfObjects`) has been replaced with the repeating object count group (`objectCountGroupList/objectCountGroup`). If this version of the materials profile is used with an older CollectionSpace server, values entered in the repeating group will not be saved.
+  - The number of objects field (`numberOfObjects`) has been replaced with the first instance of the repeating object count group (`objectCountGroupList/objectCountGroup`). If this version of the materials profile is used with an older CollectionSpace server, values entered in the instance of the repeating group will not be saved.
 
 ## v3.0.0
 
