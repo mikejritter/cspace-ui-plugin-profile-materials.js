@@ -23,11 +23,7 @@ const template = (configContext) => {
         <Row>
           <Col>
             <Field name="objectNumber" />
-            <Field name="objectCountGroupList">
-              <Field name="objectCountGroup" tabular={false}>
-                <Field name="objectCount" label="" />
-              </Field>
-            </Field>
+            <Field name="objectCount" subpath={["ns2:collectionobjects_common", "objectCountGroupList", "objectCountGroup", "0"]} />
 
             <Field name="otherNumberList">
               <Field name="otherNumber">

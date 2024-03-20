@@ -47,16 +47,6 @@ export default (configContext) => {
             },
           },
         },
-        objectCountGroupList: {
-          objectCountGroup: {
-            [config]: {
-              repeating: false,
-              props: {
-                tabular: false,
-              },
-            },
-          },
-        },
         physicalDescription: {
           // Replaced by materialPhysicalDescriptions. Hide from search.
           [config]: {

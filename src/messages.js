@@ -12,7 +12,8 @@ export default {
   'column.collectionobject.narrow.objectNumber': 'Acc. number',
 
   'field.collectionobjects_common.objectNumber.name': 'Accession number',
-  'field.collectionobjects_common.objectCountGroup.name': 'Number of objects',
+  'field.collectionobjects_common.objectCount.fullName': 'Number of objects',
+  'field.collectionobjects_common.objectCount.name': 'Number of objects',
   'field.collectionobjects_common.briefDescription.name': 'Production description',
   'field.collectionobjects_common.objectStatus.name': 'Object type',
   'field.collectionobjects_common.reference.name': 'Supplementary literature description',
