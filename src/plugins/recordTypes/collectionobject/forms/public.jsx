@@ -79,12 +79,8 @@ const template = (configContext) => {
         </Field>
 
         <Field name="materialGroupList">
-          <Field name="materialGroup">
-            <Field name="material" />
-            <Field name="materialComponent" />
-            <Field name="materialComponentNote" />
-            <Field name="materialName" />
-            <Field name="materialSource" />
+          <Field name="materialGroup" tabular={false}>
+            <Field name="material" label="" embedded />
           </Field>
         </Field>
 
